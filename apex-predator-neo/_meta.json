@@ -1,0 +1,11 @@
+{
+  "name": "apex-predator-neo",
+  "version": "666.1.0",
+  "description": "Autonomous triangular arbitrage AI for Binance with 8 distributed nodes, 7-module ConfluenceEngine, 4-weapon APM, and all 7 Binance AI Agent Skills integrated. Built for the Binance OpenClaw Challenge.",
+  "author": "leoklein",
+  "tags": ["binance", "trading", "hft", "arbitrage", "ai-agent", "openclaw", "triangular-arb", "market-making"],
+  "requires": {
+    "bins": ["curl", "jq", "python3", "docker", "redis-cli"],
+    "env": ["BINANCE_API_KEY", "BINANCE_SECRET"]
+  }
+}
